@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A script that shows PID without using ps command.
+
+pid=$(pgrep -l bash)
+echo "$pid"
