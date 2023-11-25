@@ -17,8 +17,7 @@ do
 	trap 'terminate' SIGQUIT
 done
 
-terminate()
-{
+terminate() {
 	rm /var/run/myscript.pid
 	exit
 }
