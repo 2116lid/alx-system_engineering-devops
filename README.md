@@ -1,1 +1,1 @@
-the second readme file
+This directory contains other files.
