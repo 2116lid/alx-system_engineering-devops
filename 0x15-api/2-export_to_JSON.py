@@ -17,6 +17,6 @@ if __name__ == '__main__':
         line = dump_file.get(argv[1])
         for task in tasks:
             line.append({"task": task.get('title'), "completed": task.
-                      get('completed'), "username": user.get('username')})
+                        get('completed'), "username": user.get('username')})
         f.write(json.dumps(dump_file))
         f.close()
